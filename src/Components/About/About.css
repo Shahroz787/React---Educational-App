@@ -1,0 +1,168 @@
+.aboutHome {
+  height: auto;
+}
+
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+  color: #fff;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutHome .right {
+  padding: 80px 50px;
+}
+
+.aboutHome .items {
+  margin-top: 50px;
+}
+
+.aboutHome .item {
+  background-color: rgba(255, 255, 255, 0.225);
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+  color: #fff;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.aboutHome .item:hover {
+  background-color: #11b468;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+
+.awrapper {
+  background-image: url("../../../public/Assests/awrapper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.awrapper .box {
+  padding: 70px 0;
+}
+
+.awrapper img {
+  margin-right: 30px;
+}
+
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    margin-bottom: -8rem;
+  }
+
+  .aboutHome .right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+  }
+
+  .aboutHome .right h3 {
+    font-size: 0.9rem !important;
+  }
+
+  .aboutHome .right h1 {
+    font-size: 30px !important;
+    margin-bottom: -1rem !important;
+  }
+
+  .aboutHome .item {
+    padding: 20px 45px;
+    display: flex !important;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: -6px;
+  }
+
+
+  .aboutHome .right .items {
+    margin-left: -2rem;
+    margin-bottom: -2rem;
+  }
+
+  .aboutHome .left img {
+    
+    width: 130% !important;
+    height: 20vh !important;
+    
+  }
+
+  .aboutHome .item .img img {
+
+    margin-left: -2rem;
+  }
+
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 65vh !important;
+  }
+
+  .awrapper .grid {
+    gap: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .aboutHome .item {
+    width: 100%;
+  }
+  .aboutHome .left img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: -4rem;
+  }
+
+  .aboutHome .right {
+    width: 100%;
+  }
+
+  .awrapper {
+    height: 23vh;
+  }
+
+  
+
+  .awrapper .box  {
+    padding: 16px 0px;
+  }
+}

@@ -1,0 +1,63 @@
+.testimonal {
+    background-color: #7070A1;
+}
+
+.testimonial .items {
+    padding: 30px;
+    transition: 0.5s;
+    background-color: #7070A1;
+  }
+  
+  .testimonial .img {
+    position: relative;
+  }
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .testimonial i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #11B468;
+    color: #fff;
+  }
+  .testimonial .name {
+    margin: 25px;
+  }
+  .testimonial .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonial .name span {
+    color: #7AFFD4;
+  }
+  .testimonial p {
+    margin-top: 20px;
+    color: #000;
+    transition: 0.5s;
+  }
+  .testimonial .items:hover {
+    background-color: #11B468;
+    color: #fff;
+    cursor: pointer;
+  }
+  .testimonial .items:hover span,
+  .testimonal .items:hover p {
+    color: #fff;
+  }
+  .testimonial .items:hover i {
+    background-color: #fff;
+    color: #11B468;
+  }
+
+
+  
+@media screen and (max-width: 600px) {
+  .testimonial .items {
+display: flex;
+  }
+
+
+}

@@ -1,0 +1,75 @@
+.hero {
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url("../../../../public/Assests/edu-cover.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #ffff;
+}
+
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .margin {
+    height: 100px;
+  }
+
+  .hero {
+    background-position: right;
+    padding-top: 65% !important;
+    height: 105vh !important;
+  }
+
+  .hero .row p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero #heading {
+    text-align: center;
+  }
+
+  .hero .row {
+    width: 120% !important;
+    height: 100vh;
+  }
+
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-btn button {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero {
+    padding-top: 50%;
+    height: 75vh;
+  }
+
+  .hero-btn {
+    display: flex;
+  }
+
+  .hero .row {
+    width: 70%;
+    height: 100vh;
+  }
+}

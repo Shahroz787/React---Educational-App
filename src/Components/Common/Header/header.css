@@ -1,0 +1,115 @@
+.head {
+  padding: 20px 0;
+  color: #ffff;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.head .icon {
+  margin-left: 10px;
+}
+
+/*________________header starts from here______________*/
+header {
+  background-color: #0d111754;
+  margin: 0 30px;
+}
+
+header ul {
+  padding: 30px 20px;
+}
+
+header li {
+  margin-right: 40px;
+}
+
+header ul li a {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+}
+
+header ul li a:hover {
+  color: #11b468;
+}
+
+.start {
+  background-color: #11b468;
+  padding: 30px 70px;
+  color: #fff;
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.toggle {
+  display: none;
+}
+
+/*__________responsive area starts from here____________*/
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .start {
+    clip-path: none;
+    margin-left: -1px!important;
+    
+  }
+
+  header {
+    margin: 0;
+    background-color: #11b468;
+    position: relative;
+    
+  }
+
+  header ul.flexSB {
+    display: none;
+  }
+
+  header ul li {
+    margin-bottom: 20px;
+  }
+
+  .toggle {
+    display: block;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    right: -1rem;
+    top: -32px;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 6vh;
+    left: 0;
+    width: 100%;
+    background-color: #1fc074;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flexSB {
+    width: 80%;
+  }
+
+  .start {
+    padding: 20px 10px;
+    margin-left: 10rem;
+  }
+}
