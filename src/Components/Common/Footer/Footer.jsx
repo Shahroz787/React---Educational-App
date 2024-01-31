@@ -90,7 +90,7 @@ export const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | by Sk Sahed Ahmed ||  <i className='fa fa-heart'></i> Saheds Educare
+          Copyright ©2023 All rights reserved | by Shahroz Ahmed ||  <i className='fa fa-heart'></i> Shahroz Educare
         </p>
       </div>
       </>

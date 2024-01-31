@@ -18,15 +18,15 @@ const Contact = () => {
               <div className='items grid2'>
                 <div className='box'>
                   <h4>ADDRESS:</h4>
-                  <p>Old Satkhira, Alia Madrasa Para, Satkhira-9400</p>
+                  <p>273-usmania colony jail road, karachi</p>
                 </div>
                 <div className='box'>
                   <h4>EMAIL:</h4>
-                  <p>ssahed65@gmail.com</p>
+                  <p>shahrozahmed787@gmail.com</p>
                 </div>
                 <div className='box'>
                   <h4>PHONE:</h4>
-                  <p>+8801792674690</p>
+                  <p>+923143317952</p>
                 </div>
               </div>
   
