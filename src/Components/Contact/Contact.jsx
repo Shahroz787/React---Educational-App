@@ -2,7 +2,8 @@ import Back from "../Common/Back/Back"
 import "./Contact.css"
 
 const Contact = () => {
-    const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.62561137777!2d89.08669731402198!3d22.70497698511481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff5e046da17843%3A0x72d4a41a3c41b4c8!2z4Kaq4KeB4Kaw4Ka-4Kak4KaoIOCmuOCmvuCmpOCmleCnjeCmt-CngOCmsOCmvg!5e0!3m2!1sbn!2sbd!4v1656006854337!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+    const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28957.410943226932!2d67.00567518476558!3d24.874900611901793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ef9ba52903f%3A0x4c0d38d728e62635!2sUsmania%20Colony%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1747071364349!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+    
     return (
       <>
         <Back title='Contact us' />
